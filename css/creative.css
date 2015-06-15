@@ -43,12 +43,14 @@ h4,
 h5,
 h6 {
     font-family: 'Salsa', cursive;
+    color: #f04079;
 }
 
 p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+    color: #f04079;
 }
 
 .bg-primary {
@@ -347,9 +349,9 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    border-color: #ededed;
+    border-color: #f04079;
     color: #222;
-    background-color: #f2f2f2;
+    background-color: #f04079;
 }
 
 .btn-default:active,
@@ -400,9 +402,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #f04079;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #f04079;
 }
 
 .btn-primary:active,
