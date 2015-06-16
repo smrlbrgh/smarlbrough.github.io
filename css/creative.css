@@ -36,21 +36,34 @@ a:focus {
     color: #f04079;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+h3 {
+    font-family: 'Salsa', cursive;
+    font-size: 20px;
+}
+h2 {
+    font-family: 'Handlee', cursive;
+    font-size: 60px;
+}
+h4 {
+    font-family: 'Salsa', cursive;
+    font-size: 30px;
+}
+h5 {
+    font-family: 'Handlee', cursive;
+    font-size: 16px;
+}
 h6 {
     font-family: 'Salsa', cursive;
     color: #f04079;
 }
 
 p {
-    margin-bottom: 20px;
-    font-size: 16px;
+    font-family: 'Pacifico', cursive;    margin-bottom: 20px;
+    font-size: 26px;
     line-height: 1.5;
-    color: #f04079;
 }
 
 .bg-primary {
@@ -244,6 +257,7 @@ header .header-content .header-content-inner p {
 
 .section-heading {
     margin-top: 0;
+    color: #04ffff;
 }
 
 .service-box {
