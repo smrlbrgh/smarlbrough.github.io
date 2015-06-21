@@ -491,3 +491,9 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+#email {
+    font-size: 10px;
+}
+#phone {
+    font-size: 10px;
+}
