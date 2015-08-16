@@ -38,7 +38,6 @@ a:focus {
 
 h1 {
     font-family: 'Gloria Hallelujah', cursive;
-    color: #04ffff;
 }
 h3 {
     font-family: 'Salsa', cursive;
@@ -197,7 +196,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.png);
+    background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
