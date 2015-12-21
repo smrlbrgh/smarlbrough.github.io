@@ -38,34 +38,39 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" class="index">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div id="name">
                 <a class="navbar-brand page-scroll" href="#page-top">Sabrina Marlbrough</a>
-                </div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio <i class="fa fa-spinner fa-pulse"></i></a>
+                    <li class="hidden">
+                        <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About Me! <i class="fa fa-spinner fa-pulse"></i></a>
+                        <a class="page-scroll" href="#graphicportfolio">Graphic Design</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact<i class="fa fa-spinner fa-pulse"></i></a>
+                        <a class="page-scroll" href="#webdevportfolio">Web Development</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -85,10 +90,112 @@
         </div>
     </header>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-xs-6 col-md-3">
+     <!-- Portfolio Grid Section -->
+    <section id="graphicportfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Graphic Design Portfolio</h2>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/collegeebook.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>E-book Cover</h4>
+                        <p class="text-muted">E-Book Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/familyebook.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>E-Book Cover</h4>
+                        <p class="text-muted">E-Book Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/visitorebook.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>E-Book Cover</h4>
+                        <p class="text-muted">E-Book Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/kitchen.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Magazine Cover</h4>
+                        <p class="text-muted">Magazine Cover Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/newmag.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Magazine Cover</h4>
+                        <p class="text-muted">Magazine Cover Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/editormag.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Magazine Design</h4>
+                        <p class="text-muted">Magazine Editor Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="webdevportfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Web Development Portfolio</h2>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="https://intense-falls-9889.herokuapp.com/" class="portfolio-box">
                         <img src="img/portfolio/doggie_daycare.png" class="img-responsive" alt="Doggie-Daycare">
                         <div class="portfolio-box-caption">
@@ -103,7 +210,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="https://github.com/smrlbrgh/recipes-collaboration" class="portfolio-box">
                         <img src="img/portfolio/Recipes_collaboration.png" class="img-responsive" alt="Recipe-Collaboration">
                         <div class="portfolio-box-caption">
@@ -117,7 +224,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="https://murmuring-anchorage-6579.herokuapp.com" class="portfolio-box">
                         <img src="img/portfolio/HomeSplash.png" class="img-responsive" alt="HomeSplash">
                         <div class="portfolio-box-caption">
@@ -131,51 +238,11 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="http://www.nerdiemom.com" class="portfolio-box">
-                        <img src="img/portfolio/nerdie_mom_wp.png" class="img-responsive" alt="Nerdie Mom Blog">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">Word Press Blog - Nerdie Mom blog
-                                </div>
-                                <div class="project-name">
-                                    WordPress Blog -- Nerdie Mom blog
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="http://www.thefacesofdiabetes.org" class="portfolio-box">
-                        <img src="img/portfolio/facesofdiabetes.png" class="img-responsive" alt="The Faces of Diabetes.org">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">WordPress Woo Commerce Site
-                                </div>
-                                <div class="project-name">
-                                    WordPress Woo Commerce Site
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-<!--                 <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/smrlbrgh/recipes-collaboration" class="portfolio-box">
-                        <img src="img/portfolio/Recipes_collaboration.png" class="img-responsive" alt="Recipe-Collaboration">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">Web Application- Class Collaboration
-                                </div>
-                                <div class="project-name">
-                                    Recipes - Collaboration
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div> -->
             </div>
         </div>
     </section>
+
+
 
     <section id="about">
         <div class="container">
@@ -268,6 +335,182 @@
         </div>
         <a href="#page-top">Back to top</a>
     </section>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>E-Book Cover Design</h2>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                            <img class="img-responsive img-centered" src="img/portfolio/collegeebook.png" alt="E-Book Cover Design">
+                            <!-- <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <p>
+                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p> -->
+                            <ul class="list-inline">
+                                <li>Date: December 2015</li>
+                                <!-- <li>Client: Round Icons</li> -->
+                                <li>Category: Graphic Design</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>E-Book Cover Design</h2>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <img class="img-responsive img-centered" src="img/portfolio/familyebook.png" alt="Family E-Book Cover">
+                            <ul class="list-inline">
+                                <li>Date: December 2015</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>E-Book Cover Design</h2>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <img class="img-responsive img-centered" src="img/portfolio/collegeebook.png" alt="Textbook E-Book Cover">
+                           <ul class="list-inline">
+                                <li>Date: December 2015</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Magazine Cover Design</h2>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <img class="img-responsive img-centered" src="img/portfolio/kitchen.png" alt="Magazine Cover Design">
+                            <ul class="list-inline">
+                                <li>Date: December 2015</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Magazine Cover Design</h2>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <img class="img-responsive img-centered" src="img/portfolio/newmagcover.png" alt="Magazine Cover Design">
+                            <ul class="list-inline">
+                                <li>Date: December 2015</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Magazine Editorial Design</h2>
+                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <img class="img-responsive img-centered" src="img/portfolio/editormag.png" alt="">
+                            <ul class="list-inline">
+                                <li>Date: December 2015</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
